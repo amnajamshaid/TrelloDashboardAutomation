@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="D:/IdeaProjects/trello-api-ui-test-automation-bsimgd">
+        <classes>
+            <class name="trelloPackage.LoginTest">
+                <methods>
+                    <include name="Test_Login_Correct_Password_Email"/>
+                </methods>
+            </class>
+            <class name="trelloPackage.BoardTest">
+                <methods>
+                    <include name="Test_Create_Board"/>
+                </methods>
+            </class>
+            <class name="trelloPackage.ListTest">
+                <methods>
+                    <include name="Test_Create_List"/>
+                </methods>
+            </class>
+            <class name="trelloPackage.CardTest">
+                <methods>
+                    <include name="Test_Create_Card"/>
+                    <include name="Test_Move_Card_To_List"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>

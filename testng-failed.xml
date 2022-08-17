@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [All Test Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="D:/IdeaProjects/trello-api-ui-test-automation-bsimgd(failed)">
+    <classes>
+      <class name="trelloPackage.BoardTest">
+        <methods>
+          <include name="Test_Create_Board"/>
+          <include name="setupDriver"/>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- trelloPackage.BoardTest -->
+      <class name="trelloPackage.ListTest">
+        <methods>
+          <include name="setupDriver"/>
+          <include name="Test_Create_List"/>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- trelloPackage.ListTest -->
+    </classes>
+  </test> <!-- D:/IdeaProjects/trello-api-ui-test-automation-bsimgd(failed) -->
+</suite> <!-- Failed suite [All Test Suite] -->
